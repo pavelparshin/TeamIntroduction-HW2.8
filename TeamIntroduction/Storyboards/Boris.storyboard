@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="JB3-CA-qXZ">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="jWa-RO-Rbj">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -7,15 +8,15 @@
     </dependencies>
     <scenes>
         <!--Boris View Controller-->
-        <scene sceneID="rWH-aI-nzc">
+        <scene sceneID="s5o-7g-pqJ">
             <objects>
-                <viewController id="JB3-CA-qXZ" customClass="BorisViewController" customModule="TeamIntroduction" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="yro-gg-Oss">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                <viewController id="jWa-RO-Rbj" customClass="BorisViewController" customModule="TeamIntroduction" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9Nk-iZ-8dV">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Boris" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a9c-1u-cU6">
-                                <rect key="frame" x="140.5" y="273.5" width="39" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Boris" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jO5-5p-4H7">
+                                <rect key="frame" x="187.5" y="437.5" width="39" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -23,16 +24,15 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="a9c-1u-cU6" firstAttribute="centerX" secondItem="yro-gg-Oss" secondAttribute="centerX" id="Hvb-St-PPl"/>
-                            <constraint firstItem="a9c-1u-cU6" firstAttribute="centerY" secondItem="yro-gg-Oss" secondAttribute="centerY" id="QmY-vK-Yw2"/>
+                            <constraint firstItem="jO5-5p-4H7" firstAttribute="centerX" secondItem="9Nk-iZ-8dV" secondAttribute="centerX" id="Zcq-Mo-EII"/>
+                            <constraint firstItem="jO5-5p-4H7" firstAttribute="centerY" secondItem="9Nk-iZ-8dV" secondAttribute="centerY" id="ueD-9a-tfv"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="3IG-4y-hnj"/>
+                        <viewLayoutGuide key="safeArea" id="vwD-I7-VKu"/>
                     </view>
-                    <navigationItem key="navigationItem" id="ckK-cX-5L1"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="lc0-6s-LfT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CGj-Zr-bes" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1262" y="503"/>
+            <point key="canvasLocation" x="186" y="159"/>
         </scene>
     </scenes>
 </document>
