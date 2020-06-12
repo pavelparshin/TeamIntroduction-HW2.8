@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B503F4B2493F72300A705AC /* Gennadiy.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B503F4A2493F72300A705AC /* Gennadiy.storyboard */; };
 		2BDF42142493E2C300582764 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDF42132493E2C300582764 /* AppDelegate.swift */; };
 		2BDF42162493E2C300582764 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDF42152493E2C300582764 /* SceneDelegate.swift */; };
 		2BDF421B2493E2C300582764 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BDF42192493E2C300582764 /* Main.storyboard */; };
@@ -17,13 +18,13 @@
 		2BDF42382493E7DA00582764 /* NikitaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDF42372493E7DA00582764 /* NikitaViewController.swift */; };
 		2BDF423A2493E7F400582764 /* GennadiyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDF42392493E7F400582764 /* GennadiyViewController.swift */; };
 		2BDF423D2493EB9700582764 /* Pavel.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BDF423B2493EB9700582764 /* Pavel.storyboard */; };
-		2BDF423F2493EC6600582764 /* Gennadiy.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BDF423E2493EC6600582764 /* Gennadiy.storyboard */; };
 		2BDF42422493EC9C00582764 /* Nikita.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BDF42402493EC9C00582764 /* Nikita.storyboard */; };
 		2BDF42442493ECDA00582764 /* Boris.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BDF42432493ECDA00582764 /* Boris.storyboard */; };
 		2BDF42462493ED2200582764 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDF42452493ED2200582764 /* MainTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B503F4A2493F72300A705AC /* Gennadiy.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Gennadiy.storyboard; sourceTree = "<group>"; };
 		2BDF42102493E2C300582764 /* TeamIntroduction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeamIntroduction.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BDF42132493E2C300582764 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2BDF42152493E2C300582764 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -36,7 +37,6 @@
 		2BDF42372493E7DA00582764 /* NikitaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NikitaViewController.swift; sourceTree = "<group>"; };
 		2BDF42392493E7F400582764 /* GennadiyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GennadiyViewController.swift; sourceTree = "<group>"; };
 		2BDF423C2493EB9700582764 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = TeamIntroduction/Storyboards/Base.lproj/Pavel.storyboard; sourceTree = "<group>"; };
-		2BDF423E2493EC6600582764 /* Gennadiy.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Gennadiy.storyboard; sourceTree = "<group>"; };
 		2BDF42412493EC9C00582764 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = TeamIntroduction/Storyboards/Base.lproj/Nikita.storyboard; sourceTree = "<group>"; };
 		2BDF42432493ECDA00582764 /* Boris.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Boris.storyboard; sourceTree = "<group>"; };
 		2BDF42452493ED2200582764 /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
@@ -102,7 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				2BDF423B2493EB9700582764 /* Pavel.storyboard */,
-				2BDF423E2493EC6600582764 /* Gennadiy.storyboard */,
+				2B503F4A2493F72300A705AC /* Gennadiy.storyboard */,
 				2BDF42402493EC9C00582764 /* Nikita.storyboard */,
 				2BDF42432493ECDA00582764 /* Boris.storyboard */,
 				2BDF42192493E2C300582764 /* Main.storyboard */,
@@ -185,9 +185,9 @@
 				2BDF42202493E2C400582764 /* LaunchScreen.storyboard in Resources */,
 				2BDF42442493ECDA00582764 /* Boris.storyboard in Resources */,
 				2BDF421D2493E2C400582764 /* Assets.xcassets in Resources */,
+				2B503F4B2493F72300A705AC /* Gennadiy.storyboard in Resources */,
 				2BDF421B2493E2C300582764 /* Main.storyboard in Resources */,
 				2BDF423D2493EB9700582764 /* Pavel.storyboard in Resources */,
-				2BDF423F2493EC6600582764 /* Gennadiy.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
