@@ -9,21 +9,37 @@
 /* Begin PBXBuildFile section */
 		2BDF42142493E2C300582764 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDF42132493E2C300582764 /* AppDelegate.swift */; };
 		2BDF42162493E2C300582764 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDF42152493E2C300582764 /* SceneDelegate.swift */; };
-		2BDF42182493E2C300582764 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDF42172493E2C300582764 /* ViewController.swift */; };
 		2BDF421B2493E2C300582764 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BDF42192493E2C300582764 /* Main.storyboard */; };
 		2BDF421D2493E2C400582764 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BDF421C2493E2C400582764 /* Assets.xcassets */; };
 		2BDF42202493E2C400582764 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BDF421E2493E2C400582764 /* LaunchScreen.storyboard */; };
+		2BDF42342493E45900582764 /* PavelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDF42332493E45900582764 /* PavelViewController.swift */; };
+		2BDF42362493E7CE00582764 /* BorisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDF42352493E7CE00582764 /* BorisViewController.swift */; };
+		2BDF42382493E7DA00582764 /* NikitaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDF42372493E7DA00582764 /* NikitaViewController.swift */; };
+		2BDF423A2493E7F400582764 /* GennadiyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDF42392493E7F400582764 /* GennadiyViewController.swift */; };
+		2BDF423D2493EB9700582764 /* Pavel.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BDF423B2493EB9700582764 /* Pavel.storyboard */; };
+		2BDF423F2493EC6600582764 /* Gennadiy.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BDF423E2493EC6600582764 /* Gennadiy.storyboard */; };
+		2BDF42422493EC9C00582764 /* Nikita.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BDF42402493EC9C00582764 /* Nikita.storyboard */; };
+		2BDF42442493ECDA00582764 /* Boris.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BDF42432493ECDA00582764 /* Boris.storyboard */; };
+		2BDF42462493ED2200582764 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDF42452493ED2200582764 /* MainTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2BDF42102493E2C300582764 /* TeamIntroduction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeamIntroduction.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BDF42132493E2C300582764 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2BDF42152493E2C300582764 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2BDF42172493E2C300582764 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2BDF421A2493E2C300582764 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2BDF421C2493E2C400582764 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2BDF421F2493E2C400582764 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2BDF42212493E2C400582764 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BDF42332493E45900582764 /* PavelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PavelViewController.swift; sourceTree = "<group>"; };
+		2BDF42352493E7CE00582764 /* BorisViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorisViewController.swift; sourceTree = "<group>"; };
+		2BDF42372493E7DA00582764 /* NikitaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NikitaViewController.swift; sourceTree = "<group>"; };
+		2BDF42392493E7F400582764 /* GennadiyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GennadiyViewController.swift; sourceTree = "<group>"; };
+		2BDF423C2493EB9700582764 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = TeamIntroduction/Storyboards/Base.lproj/Pavel.storyboard; sourceTree = "<group>"; };
+		2BDF423E2493EC6600582764 /* Gennadiy.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Gennadiy.storyboard; sourceTree = "<group>"; };
+		2BDF42412493EC9C00582764 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = TeamIntroduction/Storyboards/Base.lproj/Nikita.storyboard; sourceTree = "<group>"; };
+		2BDF42432493ECDA00582764 /* Boris.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Boris.storyboard; sourceTree = "<group>"; };
+		2BDF42452493ED2200582764 /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +72,55 @@
 		2BDF42122493E2C300582764 /* TeamIntroduction */ = {
 			isa = PBXGroup;
 			children = (
-				2BDF42132493E2C300582764 /* AppDelegate.swift */,
-				2BDF42152493E2C300582764 /* SceneDelegate.swift */,
-				2BDF42172493E2C300582764 /* ViewController.swift */,
-				2BDF42192493E2C300582764 /* Main.storyboard */,
-				2BDF421C2493E2C400582764 /* Assets.xcassets */,
-				2BDF421E2493E2C400582764 /* LaunchScreen.storyboard */,
-				2BDF42212493E2C400582764 /* Info.plist */,
+				2BDF422A2493E33F00582764 /* ViewControllers */,
+				2BDF42292493E33300582764 /* Storyboards */,
+				2BDF42272493E2E700582764 /* SupportingFiles */,
+				2BDF42282493E31B00582764 /* Source */,
 			);
 			path = TeamIntroduction;
+			sourceTree = "<group>";
+		};
+		2BDF42272493E2E700582764 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				2BDF42132493E2C300582764 /* AppDelegate.swift */,
+				2BDF42152493E2C300582764 /* SceneDelegate.swift */,
+				2BDF42212493E2C400582764 /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		2BDF42282493E31B00582764 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				2BDF421C2493E2C400582764 /* Assets.xcassets */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		2BDF42292493E33300582764 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				2BDF423B2493EB9700582764 /* Pavel.storyboard */,
+				2BDF423E2493EC6600582764 /* Gennadiy.storyboard */,
+				2BDF42402493EC9C00582764 /* Nikita.storyboard */,
+				2BDF42432493ECDA00582764 /* Boris.storyboard */,
+				2BDF42192493E2C300582764 /* Main.storyboard */,
+				2BDF421E2493E2C400582764 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		2BDF422A2493E33F00582764 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2BDF42452493ED2200582764 /* MainTableViewController.swift */,
+				2BDF42332493E45900582764 /* PavelViewController.swift */,
+				2BDF42352493E7CE00582764 /* BorisViewController.swift */,
+				2BDF42372493E7DA00582764 /* NikitaViewController.swift */,
+				2BDF42392493E7F400582764 /* GennadiyViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +181,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BDF42422493EC9C00582764 /* Nikita.storyboard in Resources */,
 				2BDF42202493E2C400582764 /* LaunchScreen.storyboard in Resources */,
+				2BDF42442493ECDA00582764 /* Boris.storyboard in Resources */,
 				2BDF421D2493E2C400582764 /* Assets.xcassets in Resources */,
 				2BDF421B2493E2C300582764 /* Main.storyboard in Resources */,
+				2BDF423D2493EB9700582764 /* Pavel.storyboard in Resources */,
+				2BDF423F2493EC6600582764 /* Gennadiy.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +198,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BDF42182493E2C300582764 /* ViewController.swift in Sources */,
 				2BDF42142493E2C300582764 /* AppDelegate.swift in Sources */,
+				2BDF423A2493E7F400582764 /* GennadiyViewController.swift in Sources */,
 				2BDF42162493E2C300582764 /* SceneDelegate.swift in Sources */,
+				2BDF42462493ED2200582764 /* MainTableViewController.swift in Sources */,
+				2BDF42362493E7CE00582764 /* BorisViewController.swift in Sources */,
+				2BDF42382493E7DA00582764 /* NikitaViewController.swift in Sources */,
+				2BDF42342493E45900582764 /* PavelViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,6 +225,22 @@
 				2BDF421F2493E2C400582764 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		2BDF423B2493EB9700582764 /* Pavel.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BDF423C2493EB9700582764 /* Base */,
+			);
+			name = Pavel.storyboard;
+			sourceTree = "<group>";
+		};
+		2BDF42402493EC9C00582764 /* Nikita.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BDF42412493EC9C00582764 /* Base */,
+			);
+			name = Nikita.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -286,7 +366,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2ZXQUQVQEL;
-				INFOPLIST_FILE = TeamIntroduction/Info.plist;
+				INFOPLIST_FILE = TeamIntroduction/SupportingFiles/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -294,7 +375,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ru.swiftbook.TeamIntroduction;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -304,7 +385,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2ZXQUQVQEL;
-				INFOPLIST_FILE = TeamIntroduction/Info.plist;
+				INFOPLIST_FILE = TeamIntroduction/SupportingFiles/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,7 +394,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ru.swiftbook.TeamIntroduction;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
