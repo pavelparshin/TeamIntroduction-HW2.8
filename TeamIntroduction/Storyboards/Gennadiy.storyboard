@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="bHF-ad-tpJ">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -12,27 +12,47 @@
             <objects>
                 <viewController id="bHF-ad-tpJ" customClass="GennadiyViewController" customModule="TeamIntroduction" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DLa-VB-iqu">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gennadiy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MWG-jz-59R">
-                                <rect key="frame" x="170.5" y="437.5" width="73" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Куреев Геннадий" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BBb-HO-imU">
+                                <rect key="frame" x="20" y="8" width="280" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jDp-Pm-WAq">
+                                <rect key="frame" x="8" y="40" width="304" height="520"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Родился в 1962г в Москве, проживаю здесь же. В 1988 г закончил ">
+                                        <attributes>
+                                            <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <font key="NSFont" metaFont="system" size="14"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="words" enablesReturnKeyAutomatically="YES"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="MWG-jz-59R" firstAttribute="centerX" secondItem="DLa-VB-iqu" secondAttribute="centerX" id="2ER-MA-WXk"/>
-                            <constraint firstItem="MWG-jz-59R" firstAttribute="centerY" secondItem="DLa-VB-iqu" secondAttribute="centerY" id="zlq-OZ-HMw"/>
+                            <constraint firstItem="BBb-HO-imU" firstAttribute="top" secondItem="Ate-oe-X67" secondAttribute="top" constant="8" id="9sY-p4-OUx"/>
+                            <constraint firstItem="jDp-Pm-WAq" firstAttribute="leading" secondItem="DLa-VB-iqu" secondAttribute="leading" constant="8" id="Idc-xr-yOV"/>
+                            <constraint firstItem="jDp-Pm-WAq" firstAttribute="centerX" secondItem="DLa-VB-iqu" secondAttribute="centerX" id="KbA-Gq-S2a"/>
+                            <constraint firstItem="BBb-HO-imU" firstAttribute="leading" secondItem="Ate-oe-X67" secondAttribute="leading" constant="20" id="Osy-ug-54U"/>
+                            <constraint firstItem="Ate-oe-X67" firstAttribute="trailing" secondItem="BBb-HO-imU" secondAttribute="trailing" constant="20" id="PAo-82-ahg"/>
+                            <constraint firstItem="BBb-HO-imU" firstAttribute="centerX" secondItem="DLa-VB-iqu" secondAttribute="centerX" id="Suk-EJ-Fec"/>
+                            <constraint firstItem="jDp-Pm-WAq" firstAttribute="top" secondItem="BBb-HO-imU" secondAttribute="bottom" constant="8" id="eKe-Ae-FRP"/>
+                            <constraint firstItem="Ate-oe-X67" firstAttribute="bottom" secondItem="jDp-Pm-WAq" secondAttribute="bottom" constant="8" id="f41-2i-FFg"/>
+                            <constraint firstAttribute="trailing" secondItem="jDp-Pm-WAq" secondAttribute="trailing" constant="8" id="oKo-X3-8qb"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Ate-oe-X67"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FNG-UG-9rx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="108" y="-184"/>
+            <point key="canvasLocation" x="106.875" y="-184.85915492957747"/>
         </scene>
     </scenes>
 </document>
