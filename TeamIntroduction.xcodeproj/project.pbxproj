@@ -18,9 +18,6 @@
 		2BDF42202493E2C400582764 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BDF421E2493E2C400582764 /* LaunchScreen.storyboard */; };
 		2BDF42342493E45900582764 /* PavelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDF42332493E45900582764 /* PavelViewController.swift */; };
 		2BDF42362493E7CE00582764 /* BorisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDF42352493E7CE00582764 /* BorisViewController.swift */; };
-		2BDF42382493E7DA00582764 /* NikitaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDF42372493E7DA00582764 /* NikitaViewController.swift */; };
-		2BDF423A2493E7F400582764 /* GennadiyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDF42392493E7F400582764 /* GennadiyViewController.swift */; };
-		2BDF42462493ED2200582764 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDF42452493ED2200582764 /* MainTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,9 +34,6 @@
 		2BDF42212493E2C400582764 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2BDF42332493E45900582764 /* PavelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PavelViewController.swift; sourceTree = "<group>"; };
 		2BDF42352493E7CE00582764 /* BorisViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorisViewController.swift; sourceTree = "<group>"; };
-		2BDF42372493E7DA00582764 /* NikitaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NikitaViewController.swift; sourceTree = "<group>"; };
-		2BDF42392493E7F400582764 /* GennadiyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GennadiyViewController.swift; sourceTree = "<group>"; };
-		2BDF42452493ED2200582764 /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,11 +108,8 @@
 		2BDF422A2493E33F00582764 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				2BDF42452493ED2200582764 /* MainTableViewController.swift */,
 				2BDF42332493E45900582764 /* PavelViewController.swift */,
 				2BDF42352493E7CE00582764 /* BorisViewController.swift */,
-				2BDF42372493E7DA00582764 /* NikitaViewController.swift */,
-				2BDF42392493E7F400582764 /* GennadiyViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -199,11 +190,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2BDF42142493E2C300582764 /* AppDelegate.swift in Sources */,
-				2BDF423A2493E7F400582764 /* GennadiyViewController.swift in Sources */,
 				2BDF42162493E2C300582764 /* SceneDelegate.swift in Sources */,
-				2BDF42462493ED2200582764 /* MainTableViewController.swift in Sources */,
 				2BDF42362493E7CE00582764 /* BorisViewController.swift in Sources */,
-				2BDF42382493E7DA00582764 /* NikitaViewController.swift in Sources */,
 				2BDF42342493E45900582764 /* PavelViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

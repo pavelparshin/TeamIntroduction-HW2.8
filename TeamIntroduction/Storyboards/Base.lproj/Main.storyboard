@@ -9,7 +9,7 @@
         <!--Our Team-->
         <scene sceneID="7cw-i5-W5D">
             <objects>
-                <tableViewController id="ySi-5K-ORo" customClass="MainTableViewController" customModule="TeamIntroduction" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="ySi-5K-ORo" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="insetGrouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="AI8-ju-cgb">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
