@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="jWa-RO-Rbj">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -12,27 +12,59 @@
             <objects>
                 <viewController id="jWa-RO-Rbj" customClass="BorisViewController" customModule="TeamIntroduction" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9Nk-iZ-8dV">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Boris" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jO5-5p-4H7">
-                                <rect key="frame" x="187.5" y="437.5" width="39" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <rect key="frame" x="134" y="188" width="52.5" height="29"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="boris" translatesAutoresizingMaskIntoConstraints="NO" id="z7w-YN-r4t">
+                                <rect key="frame" x="80" y="20" width="160" height="160"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="160" id="bR9-7f-Hyu"/>
+                                    <constraint firstAttribute="height" constant="160" id="g5m-7h-hbD"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ZYa-r8-ztB">
+                                <rect key="frame" x="16" y="256" width="288" height="221"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="221" id="WEw-o1-w5V"/>
+                                </constraints>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="ZYa-r8-ztB" firstAttribute="centerX" secondItem="9Nk-iZ-8dV" secondAttribute="centerX" id="5IO-2s-tgo"/>
                             <constraint firstItem="jO5-5p-4H7" firstAttribute="centerX" secondItem="9Nk-iZ-8dV" secondAttribute="centerX" id="Zcq-Mo-EII"/>
-                            <constraint firstItem="jO5-5p-4H7" firstAttribute="centerY" secondItem="9Nk-iZ-8dV" secondAttribute="centerY" id="ueD-9a-tfv"/>
+                            <constraint firstItem="ZYa-r8-ztB" firstAttribute="leading" secondItem="vwD-I7-VKu" secondAttribute="leading" constant="16" id="Zmb-79-RZS"/>
+                            <constraint firstItem="z7w-YN-r4t" firstAttribute="centerX" secondItem="9Nk-iZ-8dV" secondAttribute="centerX" id="bqe-k5-m9B"/>
+                            <constraint firstItem="ZYa-r8-ztB" firstAttribute="top" secondItem="jO5-5p-4H7" secondAttribute="bottom" constant="39" id="d9X-RN-ZEH"/>
+                            <constraint firstItem="jO5-5p-4H7" firstAttribute="top" secondItem="z7w-YN-r4t" secondAttribute="bottom" constant="8" id="dg2-TJ-6dQ"/>
+                            <constraint firstItem="z7w-YN-r4t" firstAttribute="top" secondItem="vwD-I7-VKu" secondAttribute="top" constant="20" id="nZL-WD-rhe"/>
+                            <constraint firstItem="vwD-I7-VKu" firstAttribute="trailing" secondItem="ZYa-r8-ztB" secondAttribute="trailing" constant="16" id="s5a-TH-iPG"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="vwD-I7-VKu"/>
                     </view>
+                    <connections>
+                        <outlet property="mainTextView" destination="ZYa-r8-ztB" id="hbm-nY-c5z"/>
+                        <outlet property="pictureImageView" destination="z7w-YN-r4t" id="ro6-kG-IQN"/>
+                        <outlet property="titelLabel" destination="jO5-5p-4H7" id="okj-pW-Lw2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CGj-Zr-bes" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="186" y="159"/>
+            <point key="canvasLocation" x="185.625" y="158.45070422535213"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="boris" width="640" height="640"/>
+    </resources>
 </document>
